@@ -34,7 +34,7 @@ body {
 	font-family: 'latoregular', sans-serif, verdana;
 	background: #FFFFFA;
 }
-*#extra {
+#extra {
 	height: 65px;
 } 
 .logo {
@@ -162,8 +162,8 @@ footer a {
 }
 footer img {
 	width: 15px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 footer a:hover {
 	background-color: #C7402D;
@@ -171,6 +171,9 @@ footer a:hover {
 address {
 	font-size: 21px;
 	font-style: normal;
+}
+address span {
+	padding-left: 10px;
 }
 .delay-3{
     animation-delay: 0.4s;
